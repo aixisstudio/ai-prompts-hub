@@ -28,6 +28,50 @@ Add your best prompt — the bot auto-merges valid PRs. Browse [`prompts.md`](pr
 
 See `prompts.md` for the live list.
 
+## 🎓 Education prompts
+
+```
+Act as a Socratic tutor for [TOPIC]. Never give me the answer directly — ask me questions that lead me to it. Grade my reasoning after each exchange.
+```
+
+```
+Create a spaced-repetition quiz on [TOPIC]. Ask one question at a time, wait for my answer, then show the correct answer with a memory hook.
+```
+
+```
+Explain [CONCEPT] at three levels: to a 10-year-old, to a college student, and to a domain expert. Highlight what changes at each level.
+```
+
+## 📧 Email & communication
+
+```
+Rewrite this email to be 40% shorter while keeping the ask unmistakably clear. Then give me a version that's firmer and one that's warmer. [EMAIL]
+```
+
+```
+Draft a polite decline for this request that preserves the relationship: [CONTEXT]. Include a soft alternative I could offer.
+```
+
+## 🧰 Productivity systems
+
+```
+Be my weekly review coach. Ask me these questions one at a time: What shipped? What slipped? What's the single most important thing next week? Then write my plan.
+```
+
+```
+Extract every task, deadline, and owner from these meeting notes. Output as a markdown table sorted by deadline. [NOTES]
+```
+
+## 💻 Developer extras
+
+```
+Act as a strict code reviewer. Review this diff for: correctness, security issues, performance, and style. Be brutally honest but specific. [CODE]
+```
+
+```
+Write a minimal reproduction case for this bug, then list the 3 most likely root causes ordered by probability. [ERROR + CODE]
+```
+
 ---
 ## Contribuir
 
