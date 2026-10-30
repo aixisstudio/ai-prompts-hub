@@ -4,31 +4,29 @@
 
 La biblioteca de prompts comunitaria
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
-
 ## 🧠 The community prompt library
 
-Add your best prompt — the bot auto-merges valid PRs. Browse [`prompts.md`](prompts.md) or the categories below.
+Agregue su mejor impulso, los auto-merges de bot valid PRs. Examine [`prompts.md`](prompts.md) o las categorías siguientes.
 
-## 🪜 Contribute
-1. Fork → edit `prompts.md` → add your prompt under the right category
-2. Open a PR → **auto-merged** ✅
-3. Prompt format:
+Gentileza
+1. Fork → editar `prompts.md` → añadir su mensaje bajo la categoría correcta
+2. Abrir un PR → ** Auto-merged** ✅
+3. Formato prompta:
 ```markdown
 ### [Name](link-to-author)
 > The prompt text. Explain briefly what it does.
 ```
 
-## 📚 Starter categories
-- **Coding** — debug, refactor, explain, generate
-- **Writing** — blog posts, docs, translation
-- **Analysis** — summarize, extract, compare
-- **Agents** — system prompts, persona design
-- **Image** — Midjourney/SDXL prompt recipes
+## 📚 Categorías de inicio
+- **Coding** - debug, refactor, explicar, generar
+- **Escribir** — blogs, documentos, traducción
+**Análisis** — resumen, extracto, compare
+- **Agentes** - impulsos del sistema, diseño de personajes
+- **Imagen** - Recetas rápidas de Midjourney/SDXL
 
-See `prompts.md` for the live list.
+Ver `prompts.md` para la lista en vivo.
 
-## 🎓 Education prompts
+## І Education prompts
 
 ```
 Act as a Socratic tutor for [TOPIC]. Never give me the answer directly — ask me questions that lead me to it. Grade my reasoning after each exchange.
@@ -42,7 +40,7 @@ Create a spaced-repetition quiz on [TOPIC]. Ask one question at a time, wait for
 Explain [CONCEPT] at three levels: to a 10-year-old, to a college student, and to a domain expert. Highlight what changes at each level.
 ```
 
-## 📧 Email & communication
+## 📧 Email &apos; communication
 
 ```
 Rewrite this email to be 40% shorter while keeping the ask unmistakably clear. Then give me a version that's firmer and one that's warmer. [EMAIL]
@@ -62,7 +60,7 @@ Be my weekly review coach. Ask me these questions one at a time: What shipped? W
 Extract every task, deadline, and owner from these meeting notes. Output as a markdown table sorted by deadline. [NOTES]
 ```
 
-## 💻 Developer extras
+## 💻 Extras para desarrolladores
 
 ```
 Act as a strict code reviewer. Review this diff for: correctness, security issues, performance, and style. Be brutally honest but specific. [CODE]
