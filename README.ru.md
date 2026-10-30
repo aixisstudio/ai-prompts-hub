@@ -4,31 +4,29 @@
 
 Общая библиотека промптов — добавь свой, автомерж
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
+##  The Быстрая библиотека сообщества
 
-## 🧠 The community prompt library
+Добавьте свою лучшую подсказку — бот автоматически объединяет действительные PR. Browse [`prompts.md`] (prompts.md) или категории ниже.
 
-Add your best prompt — the bot auto-merges valid PRs. Browse [`prompts.md`](prompts.md) or the categories below.
-
-## 🪜 Contribute
-1. Fork → edit `prompts.md` → add your prompt under the right category
-2. Open a PR → **auto-merged** ✅
-3. Prompt format:
+###Вклад
+1.Вилка → редактировать `prompts.md` → добавить подсказку под правильную категорию
+2.Откройте PR → **авто-слияние**
+3. Быстрый формат:
 ```markdown
 ### [Name](link-to-author)
 > The prompt text. Explain briefly what it does.
 ```
 
-## 📚 Starter categories
-- **Coding** — debug, refactor, explain, generate
-- **Writing** — blog posts, docs, translation
-- **Analysis** — summarize, extract, compare
-- **Agents** — system prompts, persona design
-- **Image** — Midjourney/SDXL prompt recipes
+##   Начальные категории
+**Кодирование** — отладка, рефактор, объяснение, генерация
+**Письмо** — сообщения в блоге, документы, перевод
+**Анализ** — обобщить, извлечь, сравнить
+**Агенты** — системные подсказки, персонифицированный дизайн
+**Изображение** - Срочные рецепты Midjourney/SDXL
 
-See `prompts.md` for the live list.
+`prompts.md` для живого списка.
 
-## 🎓 Education prompts
+###Образование подсказывает
 
 ```
 Act as a Socratic tutor for [TOPIC]. Never give me the answer directly — ask me questions that lead me to it. Grade my reasoning after each exchange.
@@ -42,7 +40,7 @@ Create a spaced-repetition quiz on [TOPIC]. Ask one question at a time, wait for
 Explain [CONCEPT] at three levels: to a 10-year-old, to a college student, and to a domain expert. Highlight what changes at each level.
 ```
 
-## 📧 Email & communication
+##   Электронная почта и связь
 
 ```
 Rewrite this email to be 40% shorter while keeping the ask unmistakably clear. Then give me a version that's firmer and one that's warmer. [EMAIL]
@@ -52,7 +50,7 @@ Rewrite this email to be 40% shorter while keeping the ask unmistakably clear. T
 Draft a polite decline for this request that preserves the relationship: [CONTEXT]. Include a soft alternative I could offer.
 ```
 
-## 🧰 Productivity systems
+##Системы производительности
 
 ```
 Be my weekly review coach. Ask me these questions one at a time: What shipped? What slipped? What's the single most important thing next week? Then write my plan.
@@ -62,7 +60,7 @@ Be my weekly review coach. Ask me these questions one at a time: What shipped? W
 Extract every task, deadline, and owner from these meeting notes. Output as a markdown table sorted by deadline. [NOTES]
 ```
 
-## 💻 Developer extras
+##   Разработчики
 
 ```
 Act as a strict code reviewer. Review this diff for: correctness, security issues, performance, and style. Be brutally honest but specific. [CODE]
