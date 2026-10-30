@@ -4,31 +4,29 @@
 
 La bibliothèque de prompts communautaire — ajoute le tien, fusion auto
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
+La bibliothèque de la communauté prompte
 
-## 🧠 The community prompt library
+Ajoutez votre meilleur prompt — le robot fusionne automatiquement des PR valides. Parcourez [`prompts.md`](prompts.md) ou les catégories ci-dessous.
 
-Add your best prompt — the bot auto-merges valid PRs. Browse [`prompts.md`](prompts.md) or the categories below.
-
-## 🪜 Contribute
-1. Fork → edit `prompts.md` → add your prompt under the right category
-2. Open a PR → **auto-merged** ✅
-3. Prompt format:
+Contribution
+1. Fork → modifier `prompts.md` → ajouter votre invite dans la bonne catégorie
+2. Ouvrir un PR → **auto-fusionné**
+3. Format rapide:
 ```markdown
 ### [Name](link-to-author)
 > The prompt text. Explain briefly what it does.
 ```
 
-## 📚 Starter categories
-- **Coding** — debug, refactor, explain, generate
-- **Writing** — blog posts, docs, translation
-- **Analysis** — summarize, extract, compare
-- **Agents** — system prompts, persona design
-- **Image** — Midjourney/SDXL prompt recipes
+Catégories de démarrage
+- **Codage** — débogage, refactor, expliquer, générer
+- **Ecrit** — billets de blog, documents, traduction
+- **Analyse** — résumé, extrait, comparaison
+- **Agents** — prompts système, design persona
+- **Image** — Recettes rapides Midjourney/SDXL
 
-See `prompts.md` for the live list.
+Voir `prompts.md` pour la liste en direct.
 
-## 🎓 Education prompts
+L'éducation invite
 
 ```
 Act as a Socratic tutor for [TOPIC]. Never give me the answer directly — ask me questions that lead me to it. Grade my reasoning after each exchange.
@@ -42,7 +40,7 @@ Create a spaced-repetition quiz on [TOPIC]. Ask one question at a time, wait for
 Explain [CONCEPT] at three levels: to a 10-year-old, to a college student, and to a domain expert. Highlight what changes at each level.
 ```
 
-## 📧 Email & communication
+Courriel et communication
 
 ```
 Rewrite this email to be 40% shorter while keeping the ask unmistakably clear. Then give me a version that's firmer and one that's warmer. [EMAIL]
@@ -52,7 +50,7 @@ Rewrite this email to be 40% shorter while keeping the ask unmistakably clear. T
 Draft a polite decline for this request that preserves the relationship: [CONTEXT]. Include a soft alternative I could offer.
 ```
 
-## 🧰 Productivity systems
+Systèmes de productivité
 
 ```
 Be my weekly review coach. Ask me these questions one at a time: What shipped? What slipped? What's the single most important thing next week? Then write my plan.
@@ -62,7 +60,7 @@ Be my weekly review coach. Ask me these questions one at a time: What shipped? W
 Extract every task, deadline, and owner from these meeting notes. Output as a markdown table sorted by deadline. [NOTES]
 ```
 
-## 💻 Developer extras
+## Ajouter des développeurs
 
 ```
 Act as a strict code reviewer. Review this diff for: correctness, security issues, performance, and style. Be brutally honest but specific. [CODE]
